@@ -223,8 +223,8 @@ a {
 
 .btn--outline {
   background: #fff;
-  color: var(--color-headings);
   border: 2px solid var(--color-headings);
+  color: var(--color-headings);
 }
 
 .btn--outline:hover {
@@ -303,9 +303,9 @@ a {
 /* Plans */
 .plan__name {
   color: #fff;
-  margin: 0;
-  font-weight: 500;
   font-size: 2.4rem;
+  font-weight: 500;
+  margin: 0;
 }
 
 .plan__price {
@@ -315,15 +315,15 @@ a {
 .plan__billing-cycle {
   font-size: 2.4rem;
   font-weight: 300;
-  opacity: 0.8;
   margin-right: 1rem;
+  opacity: 0.8;
 }
 
 .plan__description {
+  display: block;
   font-size: 2rem;
   font-weight: 300;
   letter-spacing: 1px;
-  display: block;
 }
 
 .plan .list__item {
@@ -336,11 +336,11 @@ a {
 
 .plan--popular .card__header::before {
   content: url(../images/popular.svg);
-  width: 40px;
   display: inline-block;
   position: absolute;
-  top: -6px;
   right: 5%;
+  top: -6px;
+  width: 40px;
 }
 
 @media screen and (min-width: 1024px) {
